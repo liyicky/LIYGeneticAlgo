@@ -14,5 +14,5 @@
 @property (nonatomic, readwrite, strong) NSMutableArray *chromos;
 @property (nonatomic, readwrite, strong) NSMutableArray *chromoFitness;
 - (id)initWithTargetSequence:(NSString *)sequence;
-- (void) execute;
+- (void)execute;
 @end
