@@ -90,6 +90,7 @@
         deadIndex = keepFirst ? index2 : index1;
         child = [chromo1 mateWithChromosome:chromo2];
         [self.population replaceObjectAtIndex:deadIndex withObject:child];
+        NSLog(@"%i", i);
     }
 }
 
